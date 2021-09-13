@@ -32,16 +32,56 @@ body {
     color: $Fashion-3-rgba;
 }
 .navbar {
+    background-color:rgba(38,19,12, 1);
+    font-size: 1.5rem;
+    border-bottom: 2px solid $Fashion-4-rgba;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     align-content: center;
-    column-gap: 25%;
-    h1{
-    font-family: $title-font;
+    h1 {
+        font-family: $title-font;
+        
     }
-    h2{
+    h2 {
         font-family: $secondary-font;
+    }
+}
+.banner-styles {
+    
+    width: 90%;
+    height: auto;
+    
+}
+.about {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    .icon-div {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height:15%;
+        .icon-styles {
+         width: 100%;
+         height: 100%;
+         border-radius: 50%;
+        }
+    }
+    .about-desc {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2%;
+        margin-top: 3%;
+        h2 {
+            font-size: 3rem;
+            font-family: $title-font;
+            margin-bottom: 2%;
+        }
     }
 }

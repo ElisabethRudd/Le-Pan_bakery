@@ -20,6 +20,9 @@ body {
 }
 
 .navbar {
+  background-color: #26130c;
+  font-size: 1.5rem;
+  border-bottom: 2px solid #f2c2a7;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,8 +37,6 @@ body {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  -webkit-column-gap: 25%;
-          column-gap: 25%;
 }
 
 .navbar h1 {
@@ -44,5 +45,66 @@ body {
 
 .navbar h2 {
   font-family: "Open Sans", Sans-Serif;
+}
+
+.banner-styles {
+  width: 90%;
+  height: auto;
+}
+
+.about {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .icon-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 15%;
+}
+
+.about .icon-div .icon-styles {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.about .about-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.about .about-desc h2 {
+  font-size: 3rem;
+  font-family: "Work Sans", Sans-Serif;
+  margin-bottom: 2%;
 }
 /*# sourceMappingURL=-global.css.map */
