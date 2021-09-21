@@ -40,24 +40,198 @@ body {
 }
 
 .navbar h1 {
-  font-family: "Work Sans", Sans-Serif;
+  font-family: "Prata", serif;
+  font-size: 2.5rem;
 }
 
 .navbar h2 {
-  font-family: "Open Sans", Sans-Serif;
+  font-family: "Work Sans", Sans-Serif;
 }
 
-.banner-styles {
-  width: 90%;
-  height: auto;
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/bakery4.jpeg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .hero-text {
+  height: 30%;
+  width: 60%;
+  border-bottom: 4px solid #a56540;
+  border-top: 4px solid #a56540;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 5rem;
+  font-family: 'Prata';
+  color: #f2c2a7;
+  text-shadow: 2px 2px #26130c;
 }
 
 .about {
-  margin-top: 5%;
-  left: 50%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 3%;
 }
 
-.about h2 {
-  font-weight: bold;
+.about .icon-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 15%;
+  height: 15%;
+  margin-top: 5%;
+}
+
+.about .icon-div .icon-styles {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.about .about-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 2%;
+  margin-top: 3%;
+}
+
+.about .about-desc h2 {
+  font-size: 3rem;
+  font-family: "Prata", serif;
+}
+
+.about .about-desc p {
+  font-size: 1.4rem;
+  font-family: "Work Sans", Sans-Serif;
+}
+
+.tastings {
+  margin-top: 8%;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.tastings .img-side {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.tastings .img-side .vertical {
+  width: 70%;
+  height: 85%;
+  margin-right: 2%;
+}
+
+.tastings .text-side {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.tastings .text-side .text {
+  margin-top: 15%;
+  margin-left: 10%;
+}
+
+.tastings .text-side .text h3 {
+  font-family: "Prata", serif;
+  font-size: 2.5rem;
+  margin-left: 2%;
+}
+
+.tastings .text-side .text p {
+  font-family: "Work Sans", Sans-Serif;
+  font-size: 1.5rem;
+  margin-left: 2%;
+}
+
+.tastings .text-side .text a {
+  margin-left: 2%;
+  font-size: 1.5rem;
+  font-family: "Work Sans", Sans-Serif;
+  color: #f2c2a7;
+  text-decoration: underline;
+}
+
+.tastings .text-side .horizontal {
+  width: 90%;
+  height: 55%;
+  margin-top: 20%;
+  margin-left: 3%;
 }
 /*# sourceMappingURL=styles.css.map */
